@@ -11,3 +11,5 @@
  */
 
 chdir(dirname(__DIR__));
+
+require_once 'vendor/fruit42/core42/bootstrap/bootstrap.php';

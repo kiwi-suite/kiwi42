@@ -11,5 +11,21 @@
  */
 
 return [
+    'Zend\Db',
+    'Zend\I18n',
+    'Zend\Mvc\Console',
+    'Zend\Mvc\Plugin\FilePrg',
+    'Zend\Mvc\Plugin\FlashMessenger',
+    'Zend\Mvc\Plugin\Prg',
+    'Zend\Form',
+    'Zend\Hydrator',
+    'Zend\InputFilter',
+    'Zend\Filter',
+    'Zend\Paginator',
+    'Zend\Router',
+    'Zend\Serializer',
+    'Zend\Session',
+    'Zend\Validator',
 
+    'Core42',
 ];

@@ -24,4 +24,10 @@ return [
         'cache_dir' => 'data/cache/config/',
         'check_dependencies' => true,
     ],
+    'service_manager' => [
+        'factories' => [
+            \Core42\Mvc\Environment\Environment::class => \Core42\Mvc\Environment\Service\EnvironmentFactory::class,
+            'Request'   => \Zend\Mvc\Service\RequestFactory::class
+        ],
+    ]
 ];
