@@ -11,3 +11,4 @@ vendor/
 bin/
 public/assets
 public/media
+public/application

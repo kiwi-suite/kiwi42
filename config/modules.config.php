@@ -28,4 +28,9 @@ return [
     'Zend\Validator',
 
     'Core42',
+    'Admin42',
+    'Media42',
+    'Translation42',
+
+    'Application',
 ];
