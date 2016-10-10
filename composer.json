@@ -32,6 +32,17 @@
         }
     },
     "scripts": {
-        "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php"
+        "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php",
+        "post-install-cmd": [
+            "Core42\\Composer\\Composer::createComposerInfo",
+            "php bin/fruit revision-file-create"
+        ],
+        "post-update-cmd": [
+            "Core42\\Composer\\Composer::createComposerInfo",
+            "php bin/fruit revision-file-create"
+        ],
+        "post-autoload-dump": [
+            "Core42\\Composer\\Composer::createComposerInfo"
+        ]
     }
 }
