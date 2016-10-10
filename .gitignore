@@ -7,8 +7,8 @@ nbproject
 .idea
 .project
 .settings
+data/
 vendor/
 bin/
 public/assets
 public/media
-public/application
