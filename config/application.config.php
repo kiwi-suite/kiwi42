@@ -15,7 +15,7 @@ return [
     'module_listener_options' => [
         'module_paths' => [],
         'config_glob_paths' => [
-            realpath(__DIR__) . '/autoload/{{,*.}global,{,*.}local}.php',
+            realpath(__DIR__) . '/autoload/{global{*},local{*}}.config.php',
         ],
         'config_cache_enabled' => true,
         'config_cache_key' => 'application.config.cache',

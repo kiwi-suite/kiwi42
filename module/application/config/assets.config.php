@@ -5,9 +5,8 @@ return [
     'assets' => [
         'directories' => [
             'application' => [
-                'target'    => 'public/assets/application',
+                'target'    => 'application',
                 'source'    => 'module/application/assets/dist/',
-                'base_url'  => '/assets/application',
             ],
         ],
 
