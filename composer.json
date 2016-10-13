@@ -28,11 +28,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "module/application/src/"
+            "Application\\": "module/application/src/",
+            "Frontend42\\": "vendor/fruit42/frontend42/src/"
         }
     },
     "scripts": {
         "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php",
+        "post-create-project-cmd": [
+            "php bin/fruit development on",
+            "php bin/fruit cache-clear app-cache",
+            "php bin/fruit setup"
+        ],
         "post-install-cmd": [
             "Core42\\Composer\\Composer::createComposerInfo",
             "php bin/fruit revision-file-create"
