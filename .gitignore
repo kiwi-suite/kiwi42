@@ -13,3 +13,4 @@ bin/
 public/assets
 public/media
 composer.lock
+resources/assets/
