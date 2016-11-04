@@ -7,10 +7,10 @@ nbproject
 .idea
 .project
 .settings
-data/
-vendor/
-bin/
-public/assets
-public/media
-composer.lock
-resources/assets/
+/data/
+/vendor/
+/bin/
+/public/assets
+/public/media
+/resources/assets/
+/resources/version/
