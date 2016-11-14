@@ -30,6 +30,7 @@ return [
     'Core42',
     'Admin42',
     'Media42',
+    'Frontend42',
     'Translation42',
 
     'Application',

@@ -20,6 +20,7 @@
         "fruit42/core42": "dev-develop",
         "fruit42/admin42": "dev-develop",
         "fruit42/media42": "dev-develop",
+        "fruit42/frontend42": "dev-develop",
         "fruit42/translation42": "dev-develop"
     },
     "require-dev": {
