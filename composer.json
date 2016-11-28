@@ -28,23 +28,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Application\\": "module/application/src/",
-            "Frontend42\\": "vendor/fruit42/frontend42/src/"
+            "Application\\": "module/application/src/"
         }
     },
     "scripts": {
         "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php",
         "post-create-project-cmd": [
-            "php bin/fruit development on",
-            "php bin/fruit cache-clear app-cache"
+            "@composer exec fruit development on",
+            "@composer exec fruit cache-clear app-cache"
         ],
         "post-install-cmd": [
             "Core42\\Composer\\Composer::createComposerInfo",
-            "php bin/fruit revision-file-create"
+            "@composer exec fruit revision-file-create"
         ],
         "post-update-cmd": [
             "Core42\\Composer\\Composer::createComposerInfo",
-            "php bin/fruit revision-file-create"
+            "@composer exec fruit revision-file-create"
         ],
         "post-autoload-dump": [
             "Core42\\Composer\\Composer::createComposerInfo"
