@@ -11,31 +11,6 @@ class ExampleCommand extends AbstractCommand
     use ConsoleAwareTrait;
 
     /**
-     * @param bool $dryRun
-     * @return CommandInterface
-     */
-    public function setDryRun($dryRun)
-    {
-        // TODO: Implement setDryRun() method.
-    }
-
-    /**
-     * @return array
-     */
-    public function getErrors()
-    {
-        // TODO: Implement getErrors() method.
-    }
-
-    /**
-     * @return bool
-     */
-    public function hasErrors()
-    {
-        // TODO: Implement hasErrors() method.
-    }
-
-    /**
      * @param array $values
      */
     public function hydrate(array $values)
