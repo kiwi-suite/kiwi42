@@ -9,7 +9,7 @@
         "cms"
     ],
     "homepage": "https://raum42.at/",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "bin-dir": "bin",
@@ -17,11 +17,11 @@
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "fruit42/core42": "dev-develop",
-        "fruit42/admin42": "dev-develop",
-        "fruit42/media42": "dev-develop",
-        "fruit42/frontend42": "dev-develop",
-        "fruit42/translation42": "dev-develop"
+        "fruit42/core42": "^4.0",
+        "fruit42/admin42": "^4.0",
+        "fruit42/media42": "^1.0",
+        "fruit42/frontend42": "^4.0",
+        "fruit42/translation42": "^4.0"
     },
     "require-dev": {
         "zendframework/zend-test": "^3.0",
