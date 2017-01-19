@@ -32,6 +32,7 @@ return [
     'Media42',
     'Frontend42',
     'Translation42',
+    'Calendar42',
 
     'Application',
 ];

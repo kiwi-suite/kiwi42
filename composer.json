@@ -21,7 +21,8 @@
         "fruit42/admin42": "^4.0",
         "fruit42/media42": "^1.0",
         "fruit42/frontend42": "^4.0",
-        "fruit42/translation42": "^4.0"
+        "fruit42/translation42": "^4.0",
+        "fruit42/calendar42": "^3.0"
     },
     "require-dev": {
         "zendframework/zend-test": "^3.0",
